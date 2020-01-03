@@ -2,7 +2,7 @@
 FROM ilxl/ilxl-tuffix:19.04
 
 # Copy ppr runner executable
-COPY pprrunner /pprrunner
+COPY cppaudit-runner /cppaudit-runner
 
 # run pprrunner
-ENTRYPOINT ["/pprrunner"]
+ENTRYPOINT ["/cppaudit-runner"]
